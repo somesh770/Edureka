@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+   background-color: #CE0505;
+   position:relative;
+   width: 100%;
+   height: 70px;
+}
+
+.E_logo{
+    position: absolute;
+    border: 1px solid ;
+    background-color: white;
+    border-radius: 50%;
+    left: 112px;
+    font-size: 33px;   
+    bottom: 10px;
+    top: 10px;
+    
+}
+
+.logo-text{
+    color: #CE0505;
+    padding: 20px 15px 20px 15px ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.login{
+    position: absolute;
+    right: 400px;
+    text-decoration: none;
+
+    bottom: 20px;
+    top: 20px;
+    
+
+}
+
+.login-text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.signup{
+    position: absolute;
+    right: 200px;
+    text-decoration: none;
+
+    border: 1px solid white;
+
+    bottom: 25px;
+    top: 20px;
+
+}
+
+.signup_text{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+
+}
+
+
+section{
+    position: relative;
+    padding: 15px;
+    background-color: #FBFBFB;
+    height: 40px;
+
+}
+
+.title-text{
+    font-size: 36px;
+    color: #192F60;
+    font-weight: bold;
+    position: absolute;
+    left: 113px;
+    
+    
+}
+
+.Filter_section{
+    position: absolute;
+    left: 113px;
+    top: 100px;
+    width: 300px;
+    height: 682px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  
+
+}
+
+.Result_1{
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.Result_2{
+
+    position: absolute;
+    left: 470px;
+    top: 450px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+}
+
+.pagination {
+    position: absolute;
+    top: 850px;
+    left: 40%;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+  footer{
+
+    position: relative;
+    top: 1000px;
+    width: 100%;
+    height: 200px;
+    background-color: #CE0505;
+  }
+
+
+  .social_text{
+    /* position: absolute; */
+    color: rgb(17, 2, 2);
+    left: 100px;
+    top: 20px;
+
+  }
+
+  .Filter_title{
+    margin: 10px;
+    font: normal normal 600 18px/27px Poppins;
+  }
+
+  .m{
+    margin-left: 25px;
+
+  }
+
+  #dropdown{
+    margin-top: 10px;
+    padding-right: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  select{
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .text_location{
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+  }
+  
+  .Cuisine_text{
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+  }
+
+  .checkbox_sec{
+    margin-top: 10px;
+    font: normal normal normal 14px/28px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-bottom: 10px;
+
+}
+
+.Cost_For_Two{
+    font: normal normal normal 14px/28px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+.radio_sec{
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-bottom: 30px;
+    font: normal normal normal 14px/28px Poppins;
+}
+
+.title_Sort{
+    font: normal normal 600 18px/28px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.result_img{
+  border-radius: 15px;
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.result_pro_name{
+  position: absolute;
+  top: 35px;
+  left: 180px;
+  font: normal normal 600 25px/35px Poppins;
+  letter-spacing: 0px;
+  color: #192F60;
+ opacity: 1;
+}
+
+.location{
+  position: absolute;
+  left: 180px;
+  top: 80px ;
+  font: normal normal normal 16px/20px Poppins;
+  letter-spacing: 0px;
+  color: #636F88;
+  opacity: 1;
+}
+
+.result_filtr1{
+  position: absolute;
+  font: normal normal normal 15px/30px Poppins;
+  letter-spacing: 0px;
+  color: #636F88;
+  opacity: 1;
+  top: 180px;
+}
+
+.result_filtr2{
+  position: absolute;
+  font: normal normal normal 15px/30px Poppins;
+  letter-spacing: 0px;
+  color: #636F88;
+  opacity: 1;
+  top: 210px;
+}
+
+.CUISINES_result{
+  position: absolute;
+  font: normal normal normal 15px/30px Poppins;
+  letter-spacing: 0px;
+  color: #636F88;
+  opacity: 1;
+  top: 180px;
+  left: 200px;
+
+}
+
+.CostF2_result{
+  position: absolute;
+  font: normal normal normal 15px/30px Poppins;
+  letter-spacing: 0px;
+  color: #636F88;
+  opacity: 1;
+  top: 210px;
+  left: 200px;
+
+
+}
+
+.divide_line{
+
+  border: 1px solid #DEDFE5;
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
